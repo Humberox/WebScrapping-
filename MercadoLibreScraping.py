@@ -2,6 +2,8 @@ from bs4 import BeautifulSoup
 import requests
 import pandas as pd
 
+#Hola Gente de GIT-HUB"
+
 Enlace = 'https://listado.mercadolibre.com.mx/telefonos-celulares#D[A:telefonos%20celulares]'
 page = requests.get(Enlace)
 soup = BeautifulSoup(page.content, 'html.parser')
